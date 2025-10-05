@@ -9,7 +9,7 @@ The MakePayment method remains unchanged in signature, as required, but the inte
 ### Architecture & Design
 
 **1. Payment Rule**
-  - Each payment scheme (Bacs, FasterPayments, Chaps) is handled by a separate a separate class that inherits from the abstract PaymentRule class.
+  - Each payment scheme (Bacs, FasterPayments, Chaps) is handled by a separate class that inherits from the abstract PaymentRule class.
   - Each subclass implements the specific validation rules for its scheme.
 
 **2. IDataStoreFactory & IAccountDataStore**
