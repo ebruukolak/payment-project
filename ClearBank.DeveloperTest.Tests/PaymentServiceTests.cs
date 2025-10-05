@@ -13,7 +13,6 @@ namespace ClearBank.DeveloperTest.Tests
       {
          _paymentService = new PaymentService();
          AccountDataStore.Clear();
-
       }
 
 
